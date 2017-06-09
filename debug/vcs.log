@@ -1,0 +1,19 @@
+-[Log file opened at: 06/25/07 03:01:59]-
+-[======================================================]-
+-[Logging unit created for Project: Anything            ]-
+-[By Jacek "TeMPOraL" Zlydach                           ]-
+-[======================================================]-
+[I] [03:01:59] CLogger::AddLogOutput() - Attached to Logger.
+[I] [03:01:59] CVCSystem::Init() - Initializing SAPI
+[S] [03:01:59] CVCSystem::Init() - COM initialized!
+[S] [03:01:59] CVCSystem::Init() - TTS Voice initialized!
+[S] [03:01:59] CVCSystem::Init() - Recognition Engine initialized!
+[S] [03:01:59] CVCSystem::Init() - Core Recognition Context initialized!
+[S] [03:01:59] CVCSystem::Init() - Core Grammar created!
+[S] [03:01:59] CVCSystem::Init() - Core Grammar loaded!
+[S] [03:01:59] CVCSystem::Init() - SAPI initialized!
+[I] [03:01:59] WinAMP Controller INIT!
+[S] [03:01:59] WinAMP Controller init done!!
+[I] [03:01:59] ojej!
+[D] [03:02:00] Before recognition!
+[D] [03:02:00] Awaiting for event...[ffffffff]

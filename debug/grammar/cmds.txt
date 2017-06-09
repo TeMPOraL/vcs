@@ -1,0 +1,8 @@
+shuffle release
+release
+computer
+shuffle computer shuffle
+exit release
+computer
+shuffle exit exit shuffle
+shuffle exit computer exit

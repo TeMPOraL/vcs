@@ -1,0 +1,55 @@
+#+title: Voice Control System
+#+startup: hidestars
+
+/This software is a piece of ancient history; I worked on that circa 2007./
+
+A Voice Control System for controlling WinAmp under Microsoft Windows using voice commands. Works
+*completely off-line*, relying on user training instead of cloud computing.
+
+A piece of software I wrote to be able to switch music without using the computer directly - it helped me
+avoid distractions during a period of heavy studying.
+
+The software operates on a simple tree grammar:
+
+- =Computer=
+  - =Music [control]=
+    - =Playback=
+      - =Stop=
+      - =Pause=
+      - =Resume=
+      - =Loop=
+      - =Repeat [Playlist]=
+      - =Shuffle=
+      - =Next=
+      - =Previous=
+    - =Volume=
+      - =Mute=
+      - =Full=
+      - =Half=
+      - =One quarter=
+      - =Three quarters=
+      - =Louder=
+      - =Quieter=
+    - =Playlist=
+      - =Alpha=
+      - =Beta=
+      - =Gamma=
+      - =Delta=
+    - =Track info=
+    - =Preserve=
+    - =Release=
+  - =Exit=
+
+
+Note the existence of =Preserve= / =Release= pair of command. The first one locks system to the =Music control= subtree,
+so that I didn't have to repeat that part of the tree to issue more music commands. The second one releases the lock, thus
+returning the default state of the program to the top level.
+
+The system was trained using built-in Speech API training in control panel, with a set of all words in the entire grammar.
+After few training iterations (see [[file:testy.pdf][testy.pdf]] for my training sheet) in various conditions - different places of the room, different
+volume of music playback - the system became pretty reliable, and I could use it from any place in the room even with loud music
+or radio playing.
+
+Overall, this system kind of proves that useful voice recognition does /not/ require computation in the cloud - it was entirely feasible
+using 2007 tech and a mid-range PC from that era.
+
